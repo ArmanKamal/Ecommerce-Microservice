@@ -2,12 +2,10 @@ package com.arman.order.model;
 
 import jakarta.persistence.*;
 import lombok.*;
-
-import java.math.BigDecimal;
 import java.util.List;
 
 @Entity
-@Table(name = "order")
+@Table(name = "orders")
 @Getter
 @Setter
 @NoArgsConstructor

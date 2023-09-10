@@ -1,8 +1,8 @@
 package com.arman.order.service;
 
 
+import com.arman.order.dto.OrderRequest;
+
 public interface OrderService {
-//    public void placeOrder(){
-//
-//    }
+    void placeOrder(OrderRequest orderRequest);
 }
