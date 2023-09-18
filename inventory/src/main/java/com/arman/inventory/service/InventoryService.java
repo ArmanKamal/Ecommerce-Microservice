@@ -1,6 +1,10 @@
 package com.arman.inventory.service;
 
 
+import com.arman.inventory.dto.InventoryResponse;
+
+import java.util.List;
+
 public interface InventoryService {
-    boolean isInStockOrNot(String skuCode);
+    List<InventoryResponse> isInStockOrNot(List<String> skuCode);
 }
