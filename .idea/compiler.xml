@@ -16,22 +16,18 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="api-gateway" target="17" />
       <module name="database-schema" target="17" />
-      <module name="discovery-server" target="17" />
-      <module name="ecommerce" target="17" />
+      <module name="ecommerce" target="1.5" />
       <module name="Ecommerce" target="1.5" />
-      <module name="inventory" target="17" />
-      <module name="order" target="17" />
-      <module name="product" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="api-gateway" options="-parameters" />
       <module name="database-schema" options="-parameters" />
+      <module name="database-service" options="-parameters" />
       <module name="discovery-server" options="-parameters" />
-      <module name="ecommerce" options="-parameters" />
+      <module name="ecommerce" options="" />
       <module name="inventory" options="-parameters" />
       <module name="order" options="-parameters" />
       <module name="product" options="-parameters" />

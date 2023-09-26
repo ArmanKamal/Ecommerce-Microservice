@@ -1,3 +1,5 @@
 /.idea/
 /product-service/
 ./target
+.idea/*.*
+.idea
