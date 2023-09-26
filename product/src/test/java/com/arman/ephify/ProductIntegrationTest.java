@@ -19,6 +19,7 @@ import org.testcontainers.containers.MongoDBContainer;
 import org.testcontainers.junit.jupiter.Container;
 import org.testcontainers.junit.jupiter.Testcontainers;
 
+import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.List;
@@ -72,7 +73,7 @@ public class ProductIntegrationTest {
         return  ProductRequest.builder()
                 .name("product-name")
                 .description("product-description")
-                .price(BigInteger.valueOf(32123))
+                .price(BigDecimal.valueOf(32123))
                 .build();
     }
 
