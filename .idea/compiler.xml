@@ -18,6 +18,7 @@
     <bytecodeTargetLevel>
       <module name="api-gateway" target="17" />
       <module name="database-schema" target="17" />
+      <module name="database-service" target="17" />
       <module name="discovery-server" target="17" />
       <module name="ecommerce" target="17" />
       <module name="Ecommerce" target="1.5" />
