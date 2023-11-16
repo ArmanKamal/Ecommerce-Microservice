@@ -7,10 +7,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="api-gateway" />
-        <module name="database-schema" />
+        <module name="database-service" />
         <module name="product" />
         <module name="discovery-server" />
+        <module name="api-gateway" />
+        <module name="database-schema" />
         <module name="inventory" />
         <module name="order" />
       </profile>
@@ -18,6 +19,7 @@
     <bytecodeTargetLevel>
       <module name="api-gateway" target="17" />
       <module name="database-schema" target="17" />
+      <module name="database-service" target="17" />
       <module name="discovery-server" target="17" />
       <module name="ecommerce" target="17" />
       <module name="Ecommerce" target="1.5" />
@@ -30,6 +32,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="api-gateway" options="-parameters" />
       <module name="database-schema" options="-parameters" />
+      <module name="database-service" options="-parameters" />
       <module name="discovery-server" options="-parameters" />
       <module name="ecommerce" options="-parameters" />
       <module name="inventory" options="-parameters" />
